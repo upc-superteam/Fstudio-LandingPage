@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+
+/* General common styles */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    scroll-behavior: smooth !important;
+}
+
+ul, nav {
+    list-style: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Header Section Styles */
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #CB3234;
+    padding: 10px 60px;
+}
+
+ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li:first-child {
+    margin-left: 0;
+}
+
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header nav ul li:hover {
+    opacity: 0.8;
+}
+
+header nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu {
+    display: none;
+    width: 50px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    header {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    header a img {
+        height: 50px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        background-color: #C4C4C4;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100vw;
+    }
+
+    header nav ul li {
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    header nav ul li a {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .active {
+        display: none;
+    }
+
+    .menu {
+        display: inline-block;
+    }
+}
