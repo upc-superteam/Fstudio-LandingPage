@@ -24,24 +24,6 @@ ul, nav {
     margin: 0 auto;
 }
 
-/* Buttons common styles */
-
-.btn {
-    background-color: #CB3234;
-    color: #FFFFFF;
-    border-radius: 10px;
-    padding: 10px 20px;
-    border: #CB3234 solid 1px;
-    text-decoration: none;
-}
-
-.btn:hover {
-    opacity: 0.9;
-    transition: background ease-in .2s;
-    background-color: #FFFFFF;
-    color: #CB3234;
-}
-
 /* Header Section Styles */
 
 header {
@@ -617,5 +599,69 @@ header nav ul li a {
 
     .announcement-text p {
         font-size: 14px;
+    }
+}
+/* About-us Section */
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0 60px;
+}
+
+.about-us .grid-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-us .member {
+    text-align: center;
+    width: 300px;
+    padding: 30px;
+    margin: 15px;
+}
+
+.about-us .member img {
+    width: 100%;
+}
+
+.about-us .member h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.about-us .member h4,.about-us .member h5 {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+    .about-us h2 {
+        margin: 0 30px;
+    }
+
+    .about-us .member h3 {
+        font-size: 18px;
+    }
+
+    .about-us .member h4, .about-us .member h5 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .about-us .member {
+        width: 250px;
+        padding: 30px;
+        margin: 10px;
     }
 }
