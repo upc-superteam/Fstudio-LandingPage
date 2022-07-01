@@ -24,6 +24,25 @@ ul, nav {
     margin: 0 auto;
 }
 
+/* Buttons common styles */
+
+.btn {
+    background-color: #CB3234;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: #CB3234 solid 1px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transition: background ease-in .2s;
+    background-color: #FFFFFF;
+    color: #CB3234;
+}
+
+
 /* Header Section Styles */
 
 header {
