@@ -408,3 +408,123 @@ header nav ul li a {
         width: 100%;
     }
 }
+/* Buttons common styles */
+
+.btn {
+    background-color: #CB3234;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: #CB3234 solid 1px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transition: background ease-in .2s;
+    background-color: #FFFFFF;
+    color: #CB3234;
+}
+/* Announcement Section */
+.announcement {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FFFFFF;
+    height: auto;
+}
+
+.announcement-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 60px;
+    margin: 15px auto;
+    width: 50%;
+    height: auto;
+    color: #000000;
+    overflow: hidden;
+}
+
+.announcement-text h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    width: auto;
+}
+
+.announcement-text p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.announcement-img {
+    height: auto;
+    width: 50%;
+}
+
+.announcement-img img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1100px) {
+    .announcement-text h2 {
+        font-size: 48px;
+    }
+
+    .announcement-text p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 900px) {
+    .announcement-text {
+        padding: 0 30px;
+    }
+
+    .announcement-text h2 {
+        font-size: 36px;
+    }
+
+    .announcement-text p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 730px) {
+    .announcement-text {
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #FFFFFF;
+    }
+
+    .announcement-img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .announcement-text {
+        min-width: 320px;
+    }
+
+    .announcement-text h2 {
+        font-size: 28px;
+    }
+
+    .announcement-text p {
+        font-size: 14px;
+    }
+}
