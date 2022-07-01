@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FStudio</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="assets/images/logo-fstudio.png" height="80" alt="fstudio corporate logo">
+        </a>
+        <button class="menu" aria-label="Open menu">
+            <i class="fa-solid fa-bars fa-2xl"></i>
+        </button>
+        <nav class="nav active">
+            <ul class="navbar">
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#features">Features</a>
+                </li>
+                <li>
+                    <a href="#steps">How does it work?</a>
+                </li>
+                <li>
+                    <a href="#announcement">Announce you</a>
+                </li>
+                <li>
+                    <a href="#about-us">We team</a>
+                </li>
+                <li>
+                    <a href="#download">Download</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-text">
+                <h1>Connecting you with your dreams</h1>
+                <p>FStudio makes recording studios available for you to start your musical career</p>
+                <a class="btn" href="#download">Download</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/hero-image.png" alt="band playing music in a recording studio">
+            </div>
+        </section>
+
+        <!-- Features section -->
+        <section id="features" class="features">
+            <div>
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3>Security</h3>
+                <p>The recording studios go through a filter before being announced on the platform</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-rocket"></i>
+                <h3>Fast</h3>
+                <p>Book a recording studio in just 3 steps</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-lightbulb"></i>
+                <h3>Intuitive</h3>
+                <p>The user will be able to interact through a simple and easy to use interface</p>
+            </div>
+        </section>
+
+        <!-- Steps Section -->
+        <section id="steps" class="steps">
+            <h2>How to use?</h2>
+            <div class="slider">
+                <div class="step-left">
+                    <div class="step-controls">
+                        <button id="btn-left">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <div class="step-text">
+                            <h3>Create an account</h3>
+                            <p>Register with your email and password to access the application</p>
+                        </div>
+                        <div class="step-text" style="display: none;">
+                            <h3>Find a studio</h3>
+                            <p>Use the filters to search among hundreds of recording studios throughout Peru</p>
+                        </div>
+                        <div class="step-text" style="display: none;">
+                            <h3>Book the studio</h3>
+                            <p>Find the studio that best suits your needs and select the day and time of your reservation</p>
+                        </div>
+                        <button id="btn-right">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="circles">
+                        <i class="fa-solid fa-circle circle" style="color: #CB3234;"></i>
+                        <i class="fa-solid fa-circle circle"></i>
+                        <i class="fa-solid fa-circle circle"></i>
+                    </div>
+                </div>
+                <div class="step-right">
+                    <img id="slider-image" src="assets/images/step-login.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Announcement Section -->
+        <section id="announcement" class="announcement">
+            <div class="announcement-text">
+                <h2>Do you own a music studio?</h2>
+                <p>Register here to announce on the platform</p>
+                <a class="btn" href="contact.html">Registrate</a>
+            </div>
+            <div class="announcement-img">
+                <img src="assets/images/announcement-image.png" alt="">
+            </div>
+        </section>
+        <!-- plan Section -->
+        <section id="plans" class="plans">
+            <h2>Plans</h2>
+            <div class="plan">
+                <div class="card">
+                    <h3>Basic Plan</h3>
+                    <img src="assets/images/1.png" alt="">
+                    <h4>Free</h4>
+                    <p>Receive the full experience and rent the studio of your choice.</p>
+                    <a href="#" class="button">Acquire</a>
+                </div>
+                <div class="card">
+                    <h3>Silver Plan</h3>
+                    <img src="assets/images/2.png" alt="">
+                    <h4>$10 per month/$8 per year</h4>
+                    <p>Earn Publisher Rank to make your recording studio public.</p>
+                    <a href="#"class="button">Acquire</a>
+                </div>
+                <div class="card">
+                    <h3>Master Plan</h3>
+                    <img src="assets/images/3.png" alt="">
+                    <h4>17$ per month/15$ per year</h4>
+                    <p>Make your posts stand out.</p>
+                    <a href="#"class="button">Acquire</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About us section -->
+        <section id="about-us" class="about-us">
+            <h2>Our Team</h2>
+            <div class="grid-members">
+                <div class="member">
+                    <img src="assets/images/superteam-arturo.png" alt="">
+                    <h3>Julio Arturo Morón</h3>
+                    <h4>Software Engineering</h4>
+                    <h5>Universidad Peruana de Ciencias Aplicadas</h5>
+                </div>
+                <div class="member">
+                    <img src="assets/images/superteam-edu.png" alt="">
+                    <h3>Joel Edú Huaranca</h3>
+                    <h4>Information Systems Engineering</h4>
+                    <h5>Universidad Peruana de Ciencias Aplicadas</h5>
+                </div>
+                <div class="member">
+                    <img src="assets/images/superteam-santiago.png" alt="">
+                    <h3>Santiago Gabriel Pomar</h3>
+                    <h4>Information Systems Engineering</h4>
+                    <h5>Universidad Peruana de Ciencias Aplicadas</h5>
+                </div>
+                <div class="member">
+                    <img src="assets/images/superteam-nicolle.png" alt="">
+                    <h3>Carmen Nicolle Vila</h3>
+                    <h4>Information Systems Engineering</h4>
+                    <h5>Universidad Peruana de Ciencias Aplicadas</h5>
+                </div>
+                <div class="member">
+                    <img src="assets/images/superteam-joaquin.png" alt="">
+                    <h3>Joaquin Enrique Mantilla</h3>
+                    <h4>Software Engineering</h4>
+                    <h5>Universidad Peruana de Ciencias Aplicadas</h5>
+                </div>
+            </div>
+        </section>
+        <!-- Download Section -->
+        <section id="download" class="download">
+            <h2>Download it for iOS/Android</h2>
+            <div class="download-buttons">
+                <a href="#">
+                    <img src="assets/images/google-play.png" alt="google play button download">
+                </a>
+                <a href="#">
+                    <img src="assets/images/app-store.png" alt="app store button download">
+                </a>
+            </div>
+        </section>
+    </main>
+<!-- Footer Section -->
+<footer>
+    <a href="index.html">
+        <img src="assets/images/logo-fstudio-footer.png" height="70" alt="fstudio corporate logo">
+    </a>
+    <div class="icons">
+        <a href="#">
+            <i class="fa-brands fa-facebook-square"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-twitter-square"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+    </div>
+    <div>
+        <p>© FStudio, Inc. 2022</p>
+    </div>
+</footer>
+    <script src="assets/scripts/main.js"></script>
+</body>
+</html>
