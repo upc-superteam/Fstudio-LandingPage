@@ -236,3 +236,60 @@ header nav ul li a {
     background-color: #FFFFFF;
     color: #CB3234;
 }
+
+/* Features Section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.features div {
+    width: 250px;
+    padding: 15px;
+    margin: 0 15px;
+}
+
+.features div:first-child {
+    margin-left: 0;
+}
+
+.features div:last-child {
+    margin-right: 0;
+}
+
+.features i {
+    color: #000000;
+    font-size: 32px;
+}
+
+.features h3{
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.features p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+    .features div {
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .features i {
+        font-size: 26px;
+    }
+
+    .features h3{
+        font-size: 18px;
+    }
+
+    .features p {
+        font-size: 14px;
+    }
+}
