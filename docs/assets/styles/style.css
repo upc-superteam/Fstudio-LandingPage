@@ -293,3 +293,118 @@ header nav ul li a {
         font-size: 14px;
     }
 }
+
+/* Steps Section */
+.steps {
+    padding: 50px 0;
+}
+
+.steps h2 {
+    margin: 0 60px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.slider {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FFFFFF;
+    height: auto;
+}
+
+.step-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px auto;
+    padding: 0 60px;
+    width: 50%;
+    height: auto;
+    color: #000000;
+}
+
+.step-controls {
+    display: flex;
+    align-items: center;
+}
+
+.step-text h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.step-text p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.step-controls button {
+    background-color: #CB3234;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 0 2px;
+    margin: 0 10px;
+    height: 40px;
+    border: #CB3234 solid 1px;
+}
+
+.step-controls button:hover {
+    opacity: 0.9;
+    transition: background ease-in .2s;
+    background-color: #FFFFFF;
+    color: #CB3234;
+}
+
+.circles {
+    text-align: center;
+    font-size: 9px;
+    margin-top: 30px;
+    color: #C4C4C4;
+}
+
+.circles i {
+    margin: 0 5px;
+}
+
+.step-right {
+    height: auto;
+    width: 50%;
+}
+
+.step-right img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .steps h2 {
+        margin: 0 30px;
+        font-size: 28px;
+    }
+
+    .step-left {
+        padding: 0 15px;
+    }
+
+    .step-text h3 {
+        font-size: 18px;
+    }
+
+    .step-text p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    .step-left {
+        width: 100%;
+    }
+
+    .step-right {
+        width: 100%;
+    }
+}
