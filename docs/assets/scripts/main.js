@@ -40,3 +40,16 @@ function changeImage (dir) {
     document.querySelectorAll('.circle')[index].style = 'color: #CB3234';
     document.querySelectorAll('.step-text')[index].style = 'display: block';
 }
+
+/* Switch */
+const check = document.querySelector('.check');
+check.addEventListener('click', () => {
+    let id = check.checked;
+    console.log(id);
+    if (id == true) {
+        location.href = 'en/index.html';
+    } else {
+        location.href = '../index.html';
+    }
+    check.checked = id;
+});

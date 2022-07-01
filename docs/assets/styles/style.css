@@ -791,6 +791,49 @@ footer {
     opacity: 0.8;
 }
 
+.switch {
+    margin-top: 30px;
+}
+
+.en, es{
+    color: #C4C4C4;
+}
+
+.check {
+    position: relative;
+    width: 50px;
+}
+
+.check:before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background-color: #333333;
+    border-radius: 25px;
+}
+
+.check:after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #FFFFFF;
+    border-radius: 25px;
+    transition: 0.25s;
+    border: 2px solid #333333;
+    box-sizing: border-box;
+}
+
+.check:checked:after {
+    left: 25px;
+    border: 2px solid #00a1ff;
+}
+
+.check:checked:before {
+    background: #00a1ff;
+}
+
 @media (max-width: 800px) {
     footer {
         flex-direction: column;
