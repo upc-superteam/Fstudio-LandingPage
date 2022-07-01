@@ -95,7 +95,7 @@ header nav ul li a {
     cursor: pointer;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1070px) {
     header {
         flex-wrap: wrap;
         padding: 0;
@@ -163,7 +163,7 @@ header nav ul li a {
     margin: 15px;
     border: 1px solid #CB3234;
     border-radius: 4px;
-    box-shadow: 0px 0px 4px 0px #330304;
+    box-shadow: 0 0 4px 0 #330304;
     padding: 60px;
     text-align: center;
     flex-grow: 1;
@@ -477,6 +477,7 @@ header nav ul li a {
 .step-controls button {
     background-color: #CB3234;
     color: #FFFFFF;
+    cursor: pointer;
     border-radius: 5px;
     padding: 0 2px;
     margin: 0 10px;
@@ -795,7 +796,7 @@ footer {
     margin-top: 30px;
 }
 
-.en, es{
+.en, .es{
     color: #C4C4C4;
 }
 
