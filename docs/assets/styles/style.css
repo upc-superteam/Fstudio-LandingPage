@@ -731,3 +731,59 @@ header nav ul li a {
         width: 180px;
     }
 }
+
+/* Footer common styles */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+}
+
+.icons a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 32px;
+    margin: 0 15px;
+}
+
+.icons a:first-child {
+    margin-left: 0;
+}
+
+.icons a:last-child {
+    margin-right: 0;
+}
+
+.icons a:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 800px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        gap: 30px;
+        height: 350px;
+    }
+    .icons a {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 28px;
+        margin: 0 10px;
+    }
+    .icons a:first-child {
+        margin-left: 10px;
+    }
+
+    .icons a:last-child {
+        margin-right: 10px;
+    }
+}
