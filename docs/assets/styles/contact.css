@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.contact h2 {
+    margin: 0 60px;
+    font-size: 36px;
+}
+
+.contact p {
+    margin: 0 60px;
+    font-size: 24px;
+}
+
+.contact form {
+    background-color: #e4e2e2;
+    border-radius: 10PX;
+    margin: 60px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form input, .contact form textarea {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.contact a {
+    align-self: center;
+}
