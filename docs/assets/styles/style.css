@@ -135,7 +135,9 @@ header nav ul li a {
 }
 
 /* Plans Section */
+
 .plans {
+    margin: 50px 0;
 }
 
 .plans h2 {
@@ -145,7 +147,7 @@ header nav ul li a {
 }
 
 .plan {
-    height: 100vh;
+    height: auto;
     display: flex;
     width: 90%;
     margin:auto;
